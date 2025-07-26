@@ -1,0 +1,16 @@
+export * from './useLocalStorage';
+export * from './useDebounce';
+export * from './useMediaQuery';
+export * from './usePerformance';
+export { performanceMonitor } from '../utils/performanceMonitor';
+export { errorGrouper } from '../utils/intelligentErrorGrouping';
+export { sessionReplayRecorder } from '../utils/sessionReplay';
+export { structuredConsole } from '../utils/consoleReplacer';
+export * from './useLazyRoute';
+export * from './useStaggeredReveal';
+export * from './useScrollAnimation';
+export * from './usePurposefulTransition';
+export * from './useDesignSystem';
+export * from './useAccessibility';
+export { logger, useLogger } from '../utils/logger';
+export { errorReporter, useErrorReporting } from '../utils/errorReporting';
